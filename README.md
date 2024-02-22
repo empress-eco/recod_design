@@ -1,97 +1,64 @@
-[![License: AGPL v3][uri_license_image]][uri_license]
-[![Docs](https://img.shields.io/badge/Docs-Github%20Pages-blue)](https://monogramm.github.io/recod_erpnext_design/)
-[![gitmoji-changelog](https://img.shields.io/badge/Changelog-gitmoji-blue.svg)](https://github.com/frinyvonnick/gitmoji-changelog)
-[![Managed with Taiga.io](https://img.shields.io/badge/managed%20with-TAIGA.io-709f14.svg)](https://tree.taiga.io/project/monogrammbot-monogrammrecod_erpnext_design/ "Managed with Taiga.io")
-[![Build Status](https://travis-ci.org/Monogramm/recod_erpnext_design.svg)](https://travis-ci.org/Monogramm/recod_erpnext_design)
-[![Coverage Status](https://coveralls.io/repos/github/Monogramm/recod_erpnext_design/badge.svg?branch=master)](https://coveralls.io/github/Monogramm/recod_erpnext_design?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/347f10fa884446c492b6ba8cd7f4d7fc)](https://app.codacy.com/gh/Monogramm/recod_erpnext_design?utm_source=github.com&utm_medium=referral&utm_content=Monogramm/recod_erpnext_design&utm_campaign=Badge_Grade_Dashboard)
-<!--
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/273679c703bb4f02ba1aacb350f7b1c5)](https://www.codacy.com/gh/Monogramm/recod_erpnext_design?utm_source=github.com&utm_medium=referral&utm_content=Monogramm/recod_erpnext_design&utm_campaign=Badge_Coverage)
-[![codecov](https://codecov.io/gh/Monogramm/recod_erpnext_design/branch/master/graph/badge.svg)](https://codecov.io/gh/Monogramm/recod_erpnext_design)
-[![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/Monogramm/recod_erpnext_design/?ref=repository-badge)
--->
+<div align="center">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo of Empress Recod Empress Design">
+  <h2 align="center">Empress Recod Empress Design - A Radical Redesign Tool for Empress</h2>
+  <p align="center">
+    Empress Recod Empress Design is a transformative application that redefines Empress print formats and website themes for a comprehensive design renovation.
+    <br />
+    <a href="https://monogramm.github.io/recod_Empress_design/"><strong>Explore the Documentation »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/empress-eco/recod_design/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/recod_design/issues">Request Feature</a>
+  </p>
+</div>
 
-## Recod ERPNext Design
+## 🎯 About The Project
 
-> :alembic: ERPNext application to provide new sample print formats and overall design for ERPNext.
+Recod Empress Design is a dynamic application that introduces novel sample print formats and a modernized design for Empress. This tool is an ideal fit for Empress users aspiring for a fresh, contemporary look and feel for their Empress interface.
 
-## :blue_book: Docs
+**Key Features:**
+- Innovative sample print formats
+- Refreshing website themes
+- Comprehensive design renovation
 
-See GitHub Pages at [monogramm.github.io/recod_erpnext_design](https://monogramm.github.io/recod_erpnext_design/).
+Recod Empress Design is built with a range of robust technologies, offering a stable, reliable, and user-friendly experience. 
 
-## :chart_with_upwards_trend: Changes
+## 🚀 Getting Started
 
-All notable changes to this project will be documented in [CHANGELOG](./CHANGELOG.md) file.
-This CHANGELOG is generated with :heart: by [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog).
+### Prerequisites
+To use this application, ensure that you have Empress installed on your system. 
 
-This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### Installation
+Follow these simple steps to get a development environment running:
 
-## :bookmark: Roadmap
+1. Clone the repository
+    ```sh
+    git clone https://github.com/empress-eco/recod_design.git
+    ```
 
-See [Taiga.io](https://tree.taiga.io/project/monogrammbot-monogrammrecod_erpnext_design/ "Taiga.io monogrammbot-monogrammrecod_erpnext_design")
+2. Install the application
+    ```sh
+    bench get-app recod_Empress_design
+    bench install-app recod_Empress_design
+    ```
 
-## :construction: Install
+For more detailed instructions, refer to the [Empress Installation Guide](https://github.com/Empress/Empress/wiki/The-Hitchhiker%27s-Guide-to-Installing-Empress-on-Linux).
 
-**Install Frappe application**
+## 💡 Usage
+Post-installation, you can utilize this application to enhance your Empress print formats, website themes, and more for a complete design transformation.
 
-```sh
-bench get-app https://github.com/Monogramm/recod_erpnext_design
-bench install-app recod_erpnext_design
-```
+## 🤝 Contributing
+Your contributions are very welcome! Follow these steps to contribute:
 
-Check [Frappe Install](https://github.com/frappe/frappe/wiki/The-Hitchhiker%27s-Guide-to-Installing-Frappe-on-Linux) for more details.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## :white_check_mark: Run tests
+## 📜 License and Acknowledgements
 
-```sh
-bench run-tests --app recod_erpnext_design
-```
+This project operates under the MIT License. Your contributions will also be licensed under the MIT License.
 
-Check [Frappe Unit Testing](https://frappe.io/docs/user/en/guides/automated-testing/unit-testing) for more details.
-
-When installing Frappe app, the following python requirements will be installed:
-
-## :rocket: Usage
-
-How to use this application improve ERPNext print formats, website themes, etc...
-
-<!--
-[TODO] If project is deployed to DockerHub:
-## :whale: Supported tags
-[Dockerhub monogramm/recod_erpnext_design](https://hub.docker.com/r/monogramm/recod_erpnext_design/)
-* `latest`
--->
-
-## :bust_in_silhouette: Authors
-
-**Monogramm**
-
--   Website: <https://www.monogramm.io>
--   Github: [@Monogramm](https://github.com/Monogramm)
-
-**AminovE99**
-
--   Website: <https://aminove99.github.io/>
--   Github: [@AminovE99](https://github.com/AminovE99)
-
-## :handshake: Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Monogramm/recod_erpnext_design/issues).
-[Check the contributing guide](./CONTRIBUTING.md).<br />
-
-## :thumbsup: Show your support
-
-Give a :star: if this project helped you!
-
-## :page_facing_up: License
-
-Copyright © 2020 [Monogramm](https://github.com/Monogramm).<br />
-This project is [AGPL v3](uri_license) licensed.
-
-* * *
-
-_This README was generated with :heart: by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
-
-[uri_license]: https://opensource.org/licenses/AGPL-3.0
-
-[uri_license_image]: https://img.shields.io/badge/license-AGPL%20v3-blue
+We express our sincere gratitude to the Empress Community, the creators of the essential tools that empower this project. Their pioneering work and continuous support have been instrumental in building the functionalities we rely on. We deeply appreciate their contributions and ongoing support.
